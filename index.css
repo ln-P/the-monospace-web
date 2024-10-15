@@ -222,6 +222,40 @@ details :last-child {
   margin-bottom: 0;
 }
 
+details ul {
+  list-style-type: disc;
+  padding-left: 3ch;
+  margin-top: var(--line-height);
+  margin-bottom: var(--line-height);
+}
+
+details ul ul {
+  list-style-type: circle;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+details ul ul ul {
+  list-style-type: square;
+}
+
+details li {
+  margin-top: 0;
+}
+
+details li::marker {
+  color: var(--text-color);
+}
+
+details ul ul,
+details ul ol,
+details ol ul,
+details ol ol {
+  padding-left: 3ch;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 pre {
   white-space: pre;
   overflow-x: auto;
