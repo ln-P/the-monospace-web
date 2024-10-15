@@ -211,11 +211,9 @@ details[open] summary {
 
 details ::marker {
   display: inline-block;
-  content: '▶';
   margin: 0;
 }
 details[open] ::marker {
-  content: square;
   list-style-type: square;
 
 }
