@@ -215,7 +215,7 @@ details ::marker {
   margin: 0;
 }
 details[open] ::marker {
-  content: '▼';
+  content: square;
   list-style-type: square;
 
 }
